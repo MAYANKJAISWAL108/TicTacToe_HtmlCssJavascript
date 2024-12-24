@@ -1,0 +1,81 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the <body> tag */
+body {
+    background-color: #685752;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    color: yellow;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: black;
+    background-color: white;
+    font-size: 8vmin;
+    color: black;
+}
+
+#ResetButton{
+    background-color: brown;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+#NewGame
+{
+    background-color: brown;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+#output
+{
+    color:aliceblue;
+    font-size: 5vmin;
+}
+
+.output-container
+{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hide
+{
+    display: none;
+}
